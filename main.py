@@ -38,7 +38,6 @@ if __name__ == "__main__":
         )
         response = completion.choices[0].message
 
-        # If the model wants to call a tool
         if response.tool_calls:
             for tool_call in response.tool_calls:
                 function_name = tool_call.function.name
@@ -51,7 +50,6 @@ if __name__ == "__main__":
                     "content": tool_response,
                 })
 
-            # Re-send the conversation after the tool call for a follow-up response if needed
             follow_up_completion = client.chat.completions.create(
                 model="gpt-4o",
                 messages=messages,
