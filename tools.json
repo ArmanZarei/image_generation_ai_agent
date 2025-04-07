@@ -1,0 +1,51 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "image_generation_tool",
+            "description": "Generates an image based on a text prompt and saves it and returns the saved path.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "prompt": {"type": "string"}
+                },
+                "required": ["prompt"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "extract_canny_edges_tool",
+            "description": "Extract canny edges (layout) from an image and saves it and returns the saved path.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "image_path": {"type": "string"}
+                },
+                "required": ["image_path"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "controlnet_image_generation_tool",
+            "description": "Generates an image based on a canny edge (layout) image and a text prompt and saves it and returns the saved path.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "prompt": {"type": "string"},
+                    "canny_image_path": {"type": "string", "description": "Path to the canny edge image of a previously generated image."}
+                },
+                "required": ["prompt", "canny_image_path"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+]

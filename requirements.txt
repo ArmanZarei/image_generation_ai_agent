@@ -1,0 +1,7 @@
+openai
+pydantic
+diffusers["torch"] 
+transformers
+opencv-python
+protobuf 
+sentencepiece
