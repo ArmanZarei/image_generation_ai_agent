@@ -1,7 +1,8 @@
 import argparse
 import json
-import torch
+
 from openai import OpenAI
+
 from tools import ImageGenerationToolsContainer
 from utils import load_pipe, dynamic_tool_call
 

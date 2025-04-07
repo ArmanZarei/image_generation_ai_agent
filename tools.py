@@ -1,11 +1,13 @@
-import os
-import logging
 import json
-from diffusers.utils import load_image
+import logging
+import os
 import time
-from PIL import Image
+
 import cv2
 import numpy as np
+from PIL import Image
+
+from diffusers.utils import load_image
 from diffusers import StableDiffusionXLControlNetPipeline
 
 

@@ -1,5 +1,5 @@
 import torch
-from diffusers import StableDiffusionXLControlNetPipeline, ControlNetModel, AutoencoderKL
+from diffusers import AutoencoderKL, ControlNetModel, StableDiffusionXLControlNetPipeline
 from tools import ImageGenerationToolsContainer
 
 
