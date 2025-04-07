@@ -27,24 +27,24 @@ ${\text{\color{gray}User:}}$ Cool! Can you generate an image of a cat with sungl
 
 ${\text{\color{orange}Assistant:}}$ I have generated an image of a cat wearing sunglasses. You can view it [here](images/a%20cat%20wearing%20sunglasses_1744047920.350298.png).
 
-![a cat wearing sunglasses](./images/a%20cat%20wearing%20sunglasses_1744047920.350298.png)
+<img src="./images/a%20cat%20wearing%20sunglasses_1744047920.350298.png" alt="a cat wearing sunglasses" width=400 />
 
 ${\text{\color{gray}User:}}$ Nice! How about an image of an elephant with a hat?
 
 ${\text{\color{orange}Assistant:}}$ I have created an image of an elephant wearing a hat. You can view it [here](images/an%20elephant%20wearing%20a%20hat_1744047954.8751402.png).
 
-![an elephant wearing a hat](images/an%20elephant%20wearing%20a%20hat_1744047954.8751402.png)
+<img src="images/an%20elephant%20wearing%20a%20hat_1744047954.8751402.png" alt="an elephant wearing a hat" width=400 />
 
 ${\text{\color{gray}User:}}$ Awesome! Can you generate the layout (canny edges) of the previous generated image (the cat one)?
 
 ${\text{\color{orange}Assistant:}}$ I have extracted the canny edges (layout) of the image of a cat wearing sunglasses. You can view it [here](images/a%20cat%20wearing%20sunglasses_1744047920_canny.png).
 
-![a cat wearing sunglasses](images/a%20cat%20wearing%20sunglasses_1744047920_canny.png)
+<img src="images/a%20cat%20wearing%20sunglasses_1744047920_canny.png" alt="a cat wearing sunglasses" width=400 />
 
 ${\text{\color{gray}User:}}$ Can you use the layout and generate an image of a dog?
 
 ${\text{\color{orange}Assistant:}}$ I have generated an image of a dog using the layout from the cat image. You can view it [here](images/a%20dog_controlnet_1744048021.6299403.png).
 
-![a dog](images/a%20dog_controlnet_1744048021.6299403.png)
+<img src="images/a%20dog_controlnet_1744048021.6299403.png" alt="a dog" width=400 />
 
 ${\text{\color{gray}User:}}$ exit
